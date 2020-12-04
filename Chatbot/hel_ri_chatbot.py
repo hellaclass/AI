@@ -28,10 +28,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 
 # token_ls path
-token_ls_path = '/content/drive/MyDrive/Programming/Project/Hel_ri_celus (AI voice_bot for delivery_riders)/token_ls.csv'
+token_ls_path = './data/Chatbot'
 
 # model_path
-model_path = '/content/drive/MyDrive/Programming/Project/Hel_ri_celus (AI voice_bot for delivery_riders)/model/best_model.h5'
+model_path = './model/best_model.h5'
 
 # # 정규표현식 함수 정의
 
@@ -120,6 +120,9 @@ def start_predict(self):
     pred_self = pred(pad_self)
 
     return pred_self
+
+
+
 
 text = "주문번호 3400"
 start_predict(text)
