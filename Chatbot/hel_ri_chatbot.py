@@ -113,7 +113,7 @@ def pred(self):
 def start_predict(self):
 
     # re_self = re_sub(self)
-    check_self = check_spell(re_self)
+    check_self = check_spell(self)
     kkma_self = kkma_tokenizer(check_self)
     int_self = int_encode(kkma_self)
     pad_self = padding(int_self)
