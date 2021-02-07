@@ -14,6 +14,8 @@
 
 
 
+
+
 진행기간 : 2020.11.14 ~ 2020.12.24
 
 주제 : 음성인식을 통한 배달업무개선과 보험용 운행데이터 수집
@@ -31,7 +33,9 @@
 - 모니터링 페이지 영상
   - https://youtu.be/l_wSl5A3OHk
 - 발표자료
-  - 
+  - https://github.com/hellacles/AI/blob/master/helf_rider_hericelus.pdf
+
+
 
 
 
@@ -41,7 +45,7 @@
 
 STT – Chabot – TTS로 구성되어 있고, STT와 TTS의 경우 한정된 시간과 데이터로는 직접 구현하는 것은 어렵다고 판단, API와 안드로이드 기능을 사용했습니다. 
 
-<img src="readme.assets/그림1.png" style="zoom:35%;" />
+<img src="readme.assets/그림1.png" style="zoom:30%;" />
 
 **2.** **수행 내용**
 
