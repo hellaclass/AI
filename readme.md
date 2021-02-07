@@ -22,7 +22,7 @@
 
 STT – Chabot – TTS로 구성되어 있고, STT와 TTS의 경우 한정된 시간과 데이터로는 직접 구현하는 것은 어렵다고 판단, API와 안드로이드 기능을 사용했습니다. 
 
-<img src="그림1-1612700234346.png" style="zoom:40%;" />
+<img src="readme.assets/그림1.png" style="zoom:35%;" />
 
 **2.** **수행 내용**
 
@@ -77,9 +77,9 @@ STT – Chabot – TTS로 구성되어 있고, STT와 TTS의 경우 한정된 �
 
 ​	5.   전처리 된 데이터를 Simple RNN과 LSTM모두 학습시켜 결과를 확인했습니다. 
 
-​	Simple RNN의 경우 val_acc: 0.9872, LSTM의 경우 val_acc: 0.9936으로 LSTM이 더 높은 정확도를 	보였으며, Simple RNN의 경우 6번 intent(배달완료)에 대해 낮은 precision을 보여 LSTM이 더 적합	할 것으로 판단하였습니다.
+​	Simple RNN의 경우 val_acc: 0.9872, LSTM의 경우 val_acc: 0.9936으로 LSTM이 더 높은 정확도를 	보였으며, Simple RNN의 경우 6번 intent(배달완료)에 대해 낮은 precision을 보여 LSTM이 더 적합할 것으로 판단하였습니다.
 
-![](그림2.png)
+<img src="readme.assets/그림2.png" style="zoom:70%;" />
 
 ​														<SimpleRNN>									<LSTM>
 
@@ -87,7 +87,7 @@ STT – Chabot – TTS로 구성되어 있고, STT와 TTS의 경우 한정된 �
 
 6. 이후 Bayesian optimization을 이용해 hyper parameter를 tuning하였고, 멘토링 과정 중 음성인식의 속도 관련 피드백을 받아 1건의 테스트데이터를 predict 하는데 걸리는 시간을 추가로 측정하면서 다시 Bayesian optimization을 진행, 45개의 모델 구조를 탐색하였습니다. Call-back을 지정하여 accuracy가 가장 높은 지점이 모델로 저장되게 구현했습니다.
 
-   <img src="그림3.png" style="zoom:35%;" />
+   <img src="readme.assets/그림3.png" style="zoom:22%;" />
 
    
 
@@ -97,9 +97,7 @@ STT – Chabot – TTS로 구성되어 있고, STT와 TTS의 경우 한정된 �
 
    \-  속도관련 이슈로, 실행용 코드에서는 전체 텍스트 전처리 수행시간의 약 50%를 차지하는 맞춤법 및 띄어쓰기 수정 코드를 삭제하였습니다.
 
-<img src="그림4.png" style="zoom:90%;" />
-
- 
+<img src="readme.assets/그림4.png" style="zoom:75%;" />
 
 **3.** **느낀 점**
 
