@@ -22,16 +22,18 @@
 
 팀명 : 헬라클레스
 
-팀원 : 이동규(팀장-AI), 박성준(빅데이터), 홍연하(빅데이터), 이주호(IoT), 이재환(Cloud)
+팀장: 이동규 (AI 모델, UX, UI, 발표자료)
 
-수상기록 : 융복합 프로젝트 경진대회 최우수상
+팀원 : 박성준(빅데이터), 홍연하(빅데이터), 이주호(IoT), 이재환(Cloud)
+
+융복합 프로젝트 경진대회 최우수상
 
 ##### 시연영상 링크
 
 - 시연영상
-  - https://youtu.be/JEP9UONqxxM
+  - https://youtu.be/hFPXZzWIiHY
 - 모니터링 페이지 영상
-  - https://youtu.be/l_wSl5A3OHk
+  - https://youtu.be/TTcnpDYWfhc
 - 발표자료
   - https://github.com/hellacles/AI/blob/master/helf_rider_hericelus.pdf
 
